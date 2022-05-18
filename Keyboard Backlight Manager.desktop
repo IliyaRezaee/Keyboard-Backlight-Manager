@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Keyboard Backlight Manager
+Icon=htop
+Exec=keyboard-backlight-manager
+Terminal=true
+Categories=System;Monitor;ConsoleOnly;
+Keywords=system;process;task

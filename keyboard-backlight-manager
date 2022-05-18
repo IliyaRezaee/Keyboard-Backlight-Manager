@@ -1,0 +1,17 @@
+#! /usr/bin/python3
+
+import os
+import readline
+
+while True:
+    os.system("asusctl led-mode -h")
+    command = input("asusctl> ")
+
+    if command == "exit":
+        break
+
+    elif command == "up" or command == "down":
+        os.system(f"sudo asus-keyboard-backlight {command}")
+
+    else:
+        os.system(f"asusctl led-mode {command}")
